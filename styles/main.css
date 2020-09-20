@@ -9,3 +9,32 @@
 html {
   background-color: #888;
 }
+
+/* Wrapper */
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+}
+
+/* Images Row */
+
+.imgs-row ul {
+  display: flex;
+  flex: 1;
+}
+
+.img-row img {
+  max-width: 100%;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.first-img img {
+  border-left: 0;
+}
+
+.last-img img {
+  border-right: 0;
+}
